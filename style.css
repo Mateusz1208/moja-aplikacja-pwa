@@ -1,0 +1,21 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+h1 {
+    color: #4CAF50; /* Zielony odcień */
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 10px;
+}
