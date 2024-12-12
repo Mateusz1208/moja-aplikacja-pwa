@@ -2,10 +2,10 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('my-cache').then(function(cache) {
             return cache.addAll([
-                '/moja-aplikacja-pwa/', 
-                '/moja-aplikacja-pwa/index.html', 
-                '/moja-aplikacja-pwa/script.js', 
-                '/moja-aplikacja-pwa/style.css' 
+                '/', 
+                '/index.html', 
+                '/script.js', 
+                '/style.css'
             ]);
         })
     );
@@ -18,3 +18,4 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+

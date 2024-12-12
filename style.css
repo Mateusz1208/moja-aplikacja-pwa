@@ -1,14 +1,15 @@
-/* style.css */
+
 
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f5f7f8;
     margin: 0;
 }
 
+
 h1 {
-    color: #4CAF50; /* Zielony odcień */
+    color: #4CAF50; 
     font-size: 2rem;
     text-align: center;
 }

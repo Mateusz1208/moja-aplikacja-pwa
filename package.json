@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-webmanifest": "^2.13.2",
+    "parcel": "^2.13.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
